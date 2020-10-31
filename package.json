@@ -1,0 +1,8 @@
+{
+  "name": "redux-lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/snjssk/redux-lesson.git",
+  "author": "snjssk <snjssk0403@gmail.com>",
+  "license": "MIT"
+}
