@@ -13,11 +13,12 @@ const slice = createSlice({
   initialState,
   reducers: {
     // Action Creatorの関数
-    increment: (state, action) => {
-      console.log(state)
-      // state.num = 1
+    increment: state => {
+      state.num += 1
     },
-    decrement: state => state.num -= 1
+    decrement: state => {
+      state.num -= 1
+    }
   }
 })
 
